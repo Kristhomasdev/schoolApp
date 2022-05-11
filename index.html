@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital@1&display=swap" rel="stylesheet">
+	<!--  -->
+
+	<title></title>
+	<style type="text/css">
+body{
+	box-sizing: border-box;
+	/*background-color: yellow;*/
+	/*padding: 3% 10%;*/
+}
+.navbar{
+	width: 100%;
+	/*display: inline-block;*/
+	background-color: #E8D0B3;
+	font-family: 'Alfa Slab One', cursive;
+}
+	.navbar-brand{
+	background-color: #E8D0B3;
+	margin-left: 1.5rem;
+	
+	font-size: 3rem;
+	font-weight: 600;
+	color: white;
+	}
+		.navbar-nav{
+			margin-left: 70rem;
+			font-size: 1.2rem;
+			font-weight: 400;
+			color: white;
+			transition: .2 all;
+
+		}
+			
+				.nav-link{
+				color: white;
+				}
+					.nav-link:hover{
+						border-bottom: 3px solid white;
+						font-size: 1.3rem;
+						color: white;
+
+						}
+
+
+/*schhol__tagline*/
+
+.school__tagline{
+	background-color:#F0E5CF;
+	height: 50rem;
+	width: 70rem;
+	margin-top:0%;
+	margin-left: 50%;
+	transform: translateX(-51%);
+	text-align: center;
+
+}
+	.school__logo{
+		position: relative;
+		
+		display: inline-block;
+		top: 3%;
+		border-radius: 1000px;
+		/*box-shadow: 10px 15px;
+		border:1px solid;*/
+	}
+		.logo__img{
+			height: 65%;
+			width: 65%;
+			/*box-shadow: 300px 300px;*/
+
+		}
+		.text{
+			margin-top: 10%;
+		}
+/*registration*/
+.registration{
+width: 100%;
+height: 90vh;
+filter: blur(3px);
+background-image: url('https://t4.ftcdn.net/jpg/00/21/18/79/500_F_21187915_cc9Re1wkN3HqTpOiLg0ToZXrswgYf758.jpg');
+margin-top: 4%;
+}	
+	.form-registration{
+
+		position: absolute;
+		width: 400px;
+		border:3px solid;
+		top: 1200px;
+		left:50%;
+		transform: translateX(-52%);
+
+		height: 500px;
+		width: 1200px;
+		/*text-align: center;*/
+
+		background-image: linear-gradient(to bottom right,rgba(232, 208, 179, 0.5) 60%,white 40%);
+	}
+		.tobeflexed{
+			display: flex;
+			flex-direction: row;
+		}
+		 .form-writing{
+		 	flex:2;
+		 	/*border:1px solid;*/
+		 	display: flex;
+		 	flex-direction: column;
+		 	vertical-align: center;
+		 	justify-content: center;
+		 	margin-left: 30px;
+		 }
+		 .form-img{
+		 	flex:1;
+		 	height: 100%;
+		 	width: 200px;
+		 	/*border:3px solid;*/
+		 	
+		 }
+		 	.logoSecondary{
+		 		position: relative;
+		 		height: 20%;
+		 		width: 20%;
+		 		margin-top: 20%;
+		 		margin-left: 45%;
+		 	}
+		 		#name{
+		 			width: 50%;
+		 			background-color: transparent;
+		 			outline: none;
+		 			border:0px;
+		 			padding: 3%;
+		 			border-bottom: 10px solid #F9F3DF;
+		 			font-size: 25px;
+		 			color: #000;
+		 			letter-spacing: 3px;
+		 			font-family: 'Alfa Slab One', cursive;
+		 		}
+		 		#name:focus{
+		 			border:1px solid;
+		 			border-radius: 100px;
+		 		}
+		 		::-webkit-input-placeholder{
+		 			font-weight: 600;
+		 			font-size: 35px;
+		 			text-decoration: blink;
+		 			font-family: 'Fira Sans Condensed', sans-serif;
+		 		}
+		 		label{
+					display: block;
+					transition: all .3s;
+					margin-left: 3rem;
+					margin-top: 10px;
+
+				}
+				:placeholder-shown + label {
+					opacity: 0;
+					visibility: hidden;
+					transform: translateY(-30px);
+				}
+				#rollCall{
+					width: 50%;
+		 			background-color: transparent;
+		 			outline: none;
+		 			border:0px;
+		 			padding: 3%;
+		 			border-bottom: 10px solid #F9F3DF;
+		 			font-size: 25px;
+		 			color: #000;
+		 			letter-spacing: 3px;
+		 			font-family: 'Alfa Slab One', cursive;
+				}
+				/*#rollcall:invalid{
+					border-bottom: 5px solid red;
+				}*/
+				button{
+					background-color:#F9F3DF;
+					display: block; 
+					border:0;
+					margin-left: 5rem;
+					height: 4rem;
+					width: 13rem;
+					border-radius: 100px;
+					font-size: 1.8rem;
+					font-weight: 500;
+					border:4px solid;
+				}
+
+
+
+
+
+		</style>
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg">
+	 <a class="navbar-brand" href="#">K/CARMEL</a>
+	 	 <ul class="navbar-nav">
+	 	 	<li class="nav-item">
+         		<a class="nav-link" aria-current="page" href="./teacher.html">Teacher</a>
+        	</li>
+        	<li class="nav-item">
+          		<a class="nav-link" aria-current="page" href="./result.html">Marks</a>
+        	</li>
+        	<li class="nav-item">
+          		<a class="nav-link" aria-current="page" href="#">Classes</a>
+        	</li>
+        	<li class="nav-item">
+          		<a class="nav-link" aria-current="page" href="#">FOOTER</a>
+        	</li>
+ 
+
+
+
+
+
+
+
+
+
+	 	 </ul>
+</nav>
+
+<!-- scool__tagline -->
+	<div class="school__tagline">
+		<div class="school__logo">
+			<img src="https://play-lh.googleusercontent.com/5CQTdwxJJoy59BPFjU7pP1XFyteDZ7VvpkeJui0eCOsNa1vnJJKIAP6xo-aC_NSvaQ" class="logo__img">
+		</div>
+		<div class="text">
+			<h1>Mount carmel high schools</h1>
+			<h3>sect 21 . GANDHINAGAR</h3>
+		</div>
+	</div>
+<!-- registration -->
+<div class="registration"></div>
+
+
+
+
+	<div class="form-registration" id="form-registration">
+		<!-- <h1>Mount carmel high school</h1> -->
+
+		<div class="tobeflexed">
+			<form action="/" method="post">
+			<div class="form-writing">
+				<input type="name" name="naam" id="name" placeholder="Name" autocomplete="off">
+				<label for="name">FULL NAME</label>
+
+				<input type="number" name="rollNumber" id="rollCall" placeholder="Roll. no" autocomplete="off">
+				<label for="rollCall">roll number</label>
+				<div class="button">
+					<button>Check results</button>
+				</div>
+
+
+			</div>
+			</form>
+			<div class="form-img">
+				
+				<img src="https://play-lh.googleusercontent.com/5CQTdwxJJoy59BPFjU7pP1XFyteDZ7VvpkeJui0eCOsNa1vnJJKIAP6xo-aC_NSvaQ" class="logoSecondary">
+			</div>
+		</div>
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+<h1>h1</h1>
+<h4>hello</h4>
+</body>
+</html>
